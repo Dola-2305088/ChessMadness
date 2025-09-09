@@ -97,7 +97,7 @@ public class chessPieceMovement implements Movement {
         List<int[]> moves = new ArrayList<>();
         int[][] dirs = {
                 {-1,-1},{-1,0},{-1,1},
-                { 0,-1},        { 0,1},
+                { 0,-1},{ 0,1},
                 { 1,-1},{ 1,0},{ 1,1}
         };
         for (int[] d : dirs) {
